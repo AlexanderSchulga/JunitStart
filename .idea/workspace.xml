@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="Тест ручки junitom&#10;3 файл 56-31">
+    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="Тест ручки junitom&#10;3 файл 01-01-32&#10;Сделать похожий тест, попрактиковаться для освоения">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestPenGetColor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pen/Pen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pen/Pen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Desc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Desc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestPenWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestPenWrite.java" afterDir="false" />
     </list>
@@ -47,7 +50,23 @@
     &quot;last_opened_file_path&quot;: &quot;G:/Новая папка/JunitStart&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestPenGetColor.testPenWriteGetColorBasicColor">
+    <configuration name="TestPenGetColor.testPenWriteGetColorBasicColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestPenGetColor" />
+      <option name="METHOD_NAME" value="testPenWriteGetColorBasicColor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestPenWrite.testPenWrite_wordSizeLessThanInkCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitStart" />
       <extension name="coverage">
@@ -66,6 +85,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPenGetColor.testPenWriteGetColorBasicColor" />
         <item itemvalue="JUnit.TestPenWrite.testPenWrite_wordSizeLessThanInkCounter" />
       </list>
     </recent_temporary>
@@ -83,7 +103,8 @@
       <workItem from="1737561481650" duration="5133000" />
       <workItem from="1737645605864" duration="70000" />
       <workItem from="1737804834545" duration="387000" />
-      <workItem from="1737805613036" duration="489000" />
+      <workItem from="1737805613036" duration="975000" />
+      <workItem from="1738167460619" duration="2619000" />
     </task>
     <task id="LOCAL-00001" summary="Начало работы&#10;с Junit &#10;3 файл 34-29">
       <created>1737389571666</created>
@@ -106,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737567357500</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Тест ручки junitom&#10;3 файл 01-01-32&#10;Сделать похожий тест, попрактиковаться для освоения">
+      <created>1737806302958</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737806302958</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +167,7 @@
     <MESSAGE value="Начало работы&#10;с Junit &#10;3 файл 34-29" />
     <MESSAGE value="Pom&#10;3 файл 41-11" />
     <MESSAGE value="Тест ручки junitom&#10;3 файл 56-31" />
-    <option name="LAST_COMMIT_MESSAGE" value="Тест ручки junitom&#10;3 файл 56-31" />
+    <MESSAGE value="Тест ручки junitom&#10;3 файл 01-01-32&#10;Сделать похожий тест, попрактиковаться для освоения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Тест ручки junitom&#10;3 файл 01-01-32&#10;Сделать похожий тест, попрактиковаться для освоения" />
   </component>
 </project>

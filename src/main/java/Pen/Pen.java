@@ -9,7 +9,7 @@ public class Pen {
     //метод написания симвлов
     public String write(String wordToWrite){// принимает параметр
         return wordToWrite;
-
+//return wordToWrite + "123";
     }
     //метод плучения цвета
     public String getColor(){//не принимает параметр

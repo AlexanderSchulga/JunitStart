@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 //клас тестирования метода write у ручки
-public class TestPenWrite {
+public class TestPenWrite extends BaseTest{
     @Test
     public void testPenWrite_wordSizeLessThanInkCounter(){
         //Метод тестирования где размер слова
@@ -17,7 +17,10 @@ public class TestPenWrite {
         //актуальный результат
        String actualResult = pen.write("Hello, world");//вызываем метод write
         //проверка junit овская
-        Assert.assertEquals("",expectedResult, actualResult);
+        //Стринг формат для того, что бы вывести что ожидалось вместо пустой строки
+        //Assert.assertEquals(String.format("Expected %s, actual result %s", expectedResult, actualResult),
+                //expectedResult, actualResult);
+        Assert.assertEquals(expectedResult, actualResult);
     }
 
 }
