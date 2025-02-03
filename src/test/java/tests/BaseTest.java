@@ -1,17 +1,18 @@
 package tests;
 
-import org.junit.After;
-import org.junit.Before;
+
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 
 public class BaseTest {
 
-        @Before//предусловие
+        @BeforeEach//предусловие
     public void setUo(){
-
+        System.out.println("Старт");
         }
 
-        @After//посусловие
+        @AfterEach//посусловие
     public void tearDown(){
-
+            System.out.println("Стоп");
         }
 }

@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="Тест ручки junitom&#10;3 файл 01-01-32&#10;Сделать похожий тест, попрактиковаться для освоения">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/TestPenGetColor.java" afterDir="false" />
+    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="Тест ручки junitom&#10;3 файл 01-51-48&#10;BeforeAfter">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/PenGetColorArguments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/parametrize/TestNumberGreaterThanArguments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/parametrize/TestNumberGreaterThat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Pen/Pen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pen/Pen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Desc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Desc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestPenGetColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestPenGetColor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/TestPenWrite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/TestPenWrite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="JunitPom" />
+        <entry key="$PROJECT_DIR$" value="Junit_TestPen" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -50,34 +54,87 @@
     &quot;last_opened_file_path&quot;: &quot;G:/Новая папка/JunitStart&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestPenGetColor.testPenWriteGetColorBasicColor">
-    <configuration name="TestPenGetColor.testPenWriteGetColorBasicColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestNumberGreaterThat.testPenWriteGetColorFoo">
+    <configuration name="TestNumberGreaterThat.testPenWriteGetColorFoo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.parametrize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestPenGetColor" />
-      <option name="METHOD_NAME" value="testPenWriteGetColorBasicColor" />
+      <option name="PACKAGE_NAME" value="tests.parametrize" />
+      <option name="MAIN_CLASS_NAME" value="tests.parametrize.TestNumberGreaterThat" />
+      <option name="METHOD_NAME" value="testPenWriteGetColorFoo(int,int,java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPenWrite.testPenWrite_wordSizeLessThanInkCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestPenGetColor.testPenWriteGetColorFoo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JunitStart" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.*" />
+          <option name="PATTERN" value="tests.parametrize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestPenGetColor" />
+      <option name="METHOD_NAME" value="testPenWriteGetColorFoo(java.lang.String,int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPenGetColor.testPenWriteGetColorRedColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.parametrize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestPenGetColor" />
+      <option name="METHOD_NAME" value="testPenWriteGetColorRedColor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPenGetColor.testPenWriteGetColorRedColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.parametrize.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.TestPenGetColor" />
+      <option name="METHOD_NAME" value="testPenWriteGetColorRedColor(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPenWrite.testPenWriteWordNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.parametrize.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestPenWrite" />
-      <option name="METHOD_NAME" value="testPenWrite_wordSizeLessThanInkCounter" />
+      <option name="METHOD_NAME" value="testPenWriteWordNegative" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,8 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestPenGetColor.testPenWriteGetColorBasicColor" />
-        <item itemvalue="JUnit.TestPenWrite.testPenWrite_wordSizeLessThanInkCounter" />
+        <item itemvalue="JUnit.TestNumberGreaterThat.testPenWriteGetColorFoo" />
+        <item itemvalue="JUnit.TestPenWrite.testPenWriteWordNegative" />
+        <item itemvalue="JUnit.TestPenGetColor.testPenWriteGetColorFoo" />
+        <item itemvalue="JUnit.TestPenGetColor.testPenWriteGetColorRedColor (1)" />
+        <item itemvalue="JUnit.TestPenGetColor.testPenWriteGetColorRedColor" />
       </list>
     </recent_temporary>
   </component>
@@ -105,6 +165,8 @@
       <workItem from="1737804834545" duration="387000" />
       <workItem from="1737805613036" duration="975000" />
       <workItem from="1738167460619" duration="2619000" />
+      <workItem from="1738259281795" duration="314000" />
+      <workItem from="1738596435130" duration="10199000" />
     </task>
     <task id="LOCAL-00001" summary="Начало работы&#10;с Junit &#10;3 файл 34-29">
       <created>1737389571666</created>

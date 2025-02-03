@@ -96,5 +96,36 @@ scope, то можно для туда и туда, другой скоп мож
 PS названия можно поменять----------------------
 @BeforeEach и @AfterEach в юните 5
 --------------------------------------------------------
+Всегда должен быть базовый пустой конструктор,
+если добавляю непустой, что бы вызывать класс с дефолтными
+переменными класса.
+_____________________________________________________-
+Alt+enter-----появляется список откуда импортировать
+при наведении на красный класс, метод и тд.
+---------------------------------------------------
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-params</artifactId>
+            <version>5.11.4</version>
+            <scope>test</scope>
+        </dependency>
+Параметризация, начинается с junit 5, она для того
+что бы кучу методов не писать со схожими данными,
+например разный цвет и т.д.
+ @ParameterizedTest
+ @ValueSource(strings = {"Red", "blue", "Yellow"})------------
+ @ArgumentsSource----для параметризирования нескольких типов или параметров
+ при этом не забываем создать класс где, implements ArgumentsProvider и
+     @Override
+     public Stream<? extends Arguments> provideArguments(ExtensionContext context) throws Exception {
+         return Stream.of(
+                 Arguments.of("Red", 14),
+                 Arguments.of("blue", 140),
+                 Arguments.of("Red", 100),
+                 Arguments.of("Yellow", 1055),
+                 Arguments.of("blue", 1054)
+
+ Тест и его параметризацию нужно в отдельный пакет(папку)
+--------------------------------------------------
 
 
