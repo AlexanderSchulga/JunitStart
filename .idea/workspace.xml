@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="Junit&#10;3 файл все&#10;Параметризация, &#10;Exception,&#10;покрытие метода параметрами,&#10;сравнения equals">
+    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="Junit&#10;3 файл все&#10;Параметризация, &#10;Exception,&#10;покрытие метода параметрами,&#10;сравнения equals&#10;Дополнил Desc.txt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Desc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Desc.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/parametrize/TestNumberGreaterThat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/parametrize/TestNumberGreaterThat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Junit_TestPen" />
+        <entry key="$PROJECT_DIR$" value="Parametrize" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -159,7 +158,7 @@
       <workItem from="1738167460619" duration="2619000" />
       <workItem from="1738259281795" duration="314000" />
       <workItem from="1738596435130" duration="10199000" />
-      <workItem from="1738683042527" duration="2346000" />
+      <workItem from="1738683042527" duration="3915000" />
     </task>
     <task id="LOCAL-00001" summary="Начало работы&#10;с Junit &#10;3 файл 34-29">
       <created>1737389571666</created>
@@ -189,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1737806302958</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Junit&#10;3 файл все&#10;Параметризация, &#10;Exception,&#10;покрытие метода параметрами,&#10;сравнения equals&#10;Дополнил Desc.txt">
+      <created>1738685750251</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738685750251</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +212,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Junit_TestPen" />
+                        <option value="4_Selenium" />
                       </list>
                     </value>
                   </entry>
@@ -223,6 +229,7 @@
     <MESSAGE value="Pom&#10;3 файл 41-11" />
     <MESSAGE value="Тест ручки junitom&#10;3 файл 56-31" />
     <MESSAGE value="Тест ручки junitom&#10;3 файл 01-01-32&#10;Сделать похожий тест, попрактиковаться для освоения" />
-    <option name="LAST_COMMIT_MESSAGE" value="Тест ручки junitom&#10;3 файл 01-01-32&#10;Сделать похожий тест, попрактиковаться для освоения" />
+    <MESSAGE value="Junit&#10;3 файл все&#10;Параметризация, &#10;Exception,&#10;покрытие метода параметрами,&#10;сравнения equals&#10;Дополнил Desc.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Junit&#10;3 файл все&#10;Параметризация, &#10;Exception,&#10;покрытие метода параметрами,&#10;сравнения equals&#10;Дополнил Desc.txt" />
   </component>
 </project>
