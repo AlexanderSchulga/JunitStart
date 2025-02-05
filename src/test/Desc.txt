@@ -140,6 +140,32 @@ Selenium IDE плохо масштабируется и его тяжело по
 Selenium Webdriver тоже самое, но пишем сами, можем изменять и т.д.
 Webdriver предоставляет общий интерфейс Selenium-а
 
-
-
-
+Поиск xpath и css селекторов в браузере в devtools----
+ctrl+f как обычно.
+У Selenium есть базовый свой набор селекторов
+пример:
+static class
+By.ByClassName
+static class
+By.ByCssSelector
+static class
+By.ByXPath
+static class
+By.ByName и т.д.........
+Поиск по xpath начинается со /
+/Один слешь--на один элемент в глубь, -абсолют
+//Два слеша, на n элементов в глубь  --относит
+Если одинаковых тегов много, то нужно конкретезировать
+атрибутами:
+//Button[@name="submit_search" and @type="submit"]
+Можно один или несколько атрибутов.
+Дальше относительно найденного можно еще:
+//Button[@name="submit_search"]//a[@text()=...имя ссылки]
+text тут не атрибут, а функция xpath-а.
+CSS локатор:(пробелы указывают, что ищем относительно текущего
+//div#block_top_menu a[title="....."]
+Оси xPath ---
+//div[@id="cart"]/following-sibling::div[....]
+один из
+following-sibling---что бы не в глубь,
+а потому же уровню

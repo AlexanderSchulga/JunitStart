@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeEach;
 public class BaseTest {
 
         @BeforeEach//предусловие
-    public void setUo(){
+    public void setUp(){
         System.out.println("Старт");
         }
 
