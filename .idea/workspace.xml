@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="4 файл 24-27&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима">
+    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="4 файл 49-30&#10;селекторы&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Desc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Desc.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Parametrize" />
+        <entry key="$PROJECT_DIR$" value="4_Selenium" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,15 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Новая папка/JunitStart&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/Новая папка/JunitStart/src/test"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="tests" />
@@ -160,7 +159,8 @@
       <workItem from="1738259281795" duration="314000" />
       <workItem from="1738596435130" duration="10199000" />
       <workItem from="1738683042527" duration="4295000" />
-      <workItem from="1738770147583" duration="4163000" />
+      <workItem from="1738770147583" duration="4424000" />
+      <workItem from="1739012274658" duration="2094000" />
     </task>
     <task id="LOCAL-00001" summary="Начало работы&#10;с Junit &#10;3 файл 34-29">
       <created>1737389571666</created>
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1738687891902</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="4 файл 49-30&#10;селекторы&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима">
+      <created>1738774838313</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738774838313</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,7 +228,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="Junit/4_Selenium" />
+                        <option value="Selector" />
                       </list>
                     </value>
                   </entry>
@@ -240,6 +247,7 @@
     <MESSAGE value="Тест ручки junitom&#10;3 файл 01-01-32&#10;Сделать похожий тест, попрактиковаться для освоения" />
     <MESSAGE value="Junit&#10;3 файл все&#10;Параметризация, &#10;Exception,&#10;покрытие метода параметрами,&#10;сравнения equals&#10;Дополнил Desc.txt" />
     <MESSAGE value="4 файл 24-27&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 файл 24-27&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима" />
+    <MESSAGE value="4 файл 49-30&#10;селекторы&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 файл 49-30&#10;селекторы&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима" />
   </component>
 </project>
