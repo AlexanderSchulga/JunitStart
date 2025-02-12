@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="4 файл 1-09-54&#10;chromedriver скачал">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java" afterDir="false" />
+    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="4 файл 1-14-00&#10;Найти другой сайт, днс банит">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Selector" />
+        <entry key="$PROJECT_DIR$" value="chromdrive" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,22 +102,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.TestPenGetColor" />
-      <option name="METHOD_NAME" value="testPenWriteGetColorRedColor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestPenGetColor.testPenWriteGetColorRedColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JunitStart" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.parametrize.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.TestPenGetColor" />
       <option name="METHOD_NAME" value="testPenWriteGetColorRedColor(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -137,6 +120,21 @@
       <option name="MAIN_CLASS_NAME" value="tests.TestPenWrite" />
       <option name="METHOD_NAME" value="testPenWriteWordNegative" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSelenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JunitStart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestSelenium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestSelenium" />
+      <option name="MAIN_CLASS_NAME" value="TestSelenium.TestSelenium" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -160,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestSelenium.testSelenium" />
+        <item itemvalue="JUnit.TestSelenium" />
         <item itemvalue="JUnit.TestNumberGreaterThat.testPenWriteGetColorFoo" />
         <item itemvalue="JUnit.TestPenWrite.testPenWriteWordNegative" />
         <item itemvalue="JUnit.TestPenGetColor.testPenWriteGetColorFoo" />
-        <item itemvalue="JUnit.TestPenGetColor.testPenWriteGetColorRedColor" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +185,8 @@
       <workItem from="1738683042527" duration="4295000" />
       <workItem from="1738770147583" duration="4424000" />
       <workItem from="1739012274658" duration="2304000" />
-      <workItem from="1739291143285" duration="3968000" />
+      <workItem from="1739291143285" duration="4113000" />
+      <workItem from="1739377670319" duration="3553000" />
     </task>
     <task id="LOCAL-00001" summary="Начало работы&#10;с Junit &#10;3 файл 34-29">
       <created>1737389571666</created>
@@ -245,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739014558297</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="4 файл 1-14-00&#10;Найти другой сайт, днс банит">
+      <created>1739295983043</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739295983043</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +289,7 @@
     <MESSAGE value="4 файл 24-27&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима" />
     <MESSAGE value="4 файл 49-30&#10;селекторы&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима" />
     <MESSAGE value="4 файл 1-09-54&#10;chromedriver скачал" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 файл 1-09-54&#10;chromedriver скачал" />
+    <MESSAGE value="4 файл 1-14-00&#10;Найти другой сайт, днс банит" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 файл 1-14-00&#10;Найти другой сайт, днс банит" />
   </component>
 </project>
