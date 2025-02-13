@@ -3,6 +3,7 @@ package TestSelenium;
 //класс запускающий браузер
 
 import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -18,8 +19,9 @@ public class TestSelenium {
 
     //Локатор для клика или поиска
     private static final String FOOTBAL_BUTTON_LOC = "//div[1]/div/nav/ul/li[1]/a";
-            //"//nav[@id='header-nav js-header-nav']//a[@title='football']";
 
+    //Локатор для проверки, точно ли мы на той странице
+    private static final String FOOTBAL_PAGE_SELECTOR = "body > div.page > div.breadcrumbs.js-breadcrumbs > h1";
     @BeforeEach
     public void setUp(){
         //предусловие
@@ -35,7 +37,14 @@ public class TestSelenium {
         // провожу поиск по xPath и сохранение элемента в webElement
         WebElement webElement = webDriver.findElement(By.xpath(FOOTBAL_BUTTON_LOC));
         webElement.click(); //Кликаем на него
-        // webElement.click();
+         //еще один веб элемент для поиска по css селектора
+        WebElement titlePage = webDriver.findElement(By.cssSelector(FOOTBAL_PAGE_SELECTOR));
+        //получаем текст который ищем
+        String titleText = titlePage.getText();
+        //Проверяем, что titleText содержит в себе текст нужный
+        Assertions.assertTrue(titleText.contains("ФУТБОЛ РОССИИ И МИРА"));
+        //можно перевести в нижний регистр
+        //Assertions.assertTrue(titleText.toLowerCase().contains("Футбол Росии и Мира"));
         }
 
     @AfterEach
