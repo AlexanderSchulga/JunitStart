@@ -11,6 +11,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.time.Duration;
+import java.util.concurrent.TimeUnit;
+
 public class TestSelenium {
 
     private WebDriver webDriver;//классовое поле
@@ -26,9 +29,14 @@ public class TestSelenium {
     public void setUp(){
         //предусловие
         //указываем путь до вебдрайвера
-        System.setProperty("wedriver.chrome.driver", "src/test/resources/chromedriver.exe");
+        System.setProperty("webDriver.chrome.driver", "src/test/resources/chromedriver.exe");
         webDriver = new ChromeDriver();// создаем обьект что бы можно было юзать
         webDriver.get(AUTOMAT_PRACT_URL);//гет запрос по url
+
+        //Плохой пример ожидания
+        //чего то не робит, наверно дуратион нужен
+        //webDriver.manage().timeouts().implicitlyWait(time 10, TimeUnit.SECONDS);
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10, 0));
     }
 
     @Test
