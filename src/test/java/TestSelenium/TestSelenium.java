@@ -37,6 +37,8 @@ public class TestSelenium {
         // провожу поиск по xPath и сохранение элемента в webElement
         WebElement webElement = webDriver.findElement(By.xpath(FOOTBAL_BUTTON_LOC));
         webElement.click(); //Кликаем на него
+
+
          //еще один веб элемент для поиска по css селектора
         WebElement titlePage = webDriver.findElement(By.cssSelector(FOOTBAL_PAGE_SELECTOR));
         //получаем текст который ищем

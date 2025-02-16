@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="4 файл 1-20-10&#10;Кликает на чемпе на футбол">
+    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Desc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Desc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="chromdrive" />
+        <entry key="$PROJECT_DIR$" value="SeleniumChromdriver" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -188,7 +189,8 @@
       <workItem from="1739012274658" duration="2304000" />
       <workItem from="1739291143285" duration="4113000" />
       <workItem from="1739377670319" duration="3792000" />
-      <workItem from="1739461186154" duration="2051000" />
+      <workItem from="1739461186154" duration="2202000" />
+      <workItem from="1739695627781" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="Начало работы&#10;с Junit &#10;3 файл 34-29">
       <created>1737389571666</created>
@@ -260,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739381473020</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница">
+      <created>1739463669212</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739463669212</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,6 +309,7 @@
     <MESSAGE value="4 файл 1-09-54&#10;chromedriver скачал" />
     <MESSAGE value="4 файл 1-14-00&#10;Найти другой сайт, днс банит" />
     <MESSAGE value="4 файл 1-20-10&#10;Кликает на чемпе на футбол" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 файл 1-20-10&#10;Кликает на чемпе на футбол" />
+    <MESSAGE value="4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница" />
   </component>
 </project>
