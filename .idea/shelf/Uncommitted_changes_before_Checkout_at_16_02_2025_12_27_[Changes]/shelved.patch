@@ -1,0 +1,17 @@
+Index: src/test/java/TestSelenium/TestSelenium.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package TestSelenium;\r\n\r\n//класс запускающий браузер\r\n\r\nimport org.junit.jupiter.api.AfterEach;\r\nimport org.junit.jupiter.api.Assertions;\r\nimport org.junit.jupiter.api.BeforeEach;\r\nimport org.junit.jupiter.api.Test;\r\nimport org.openqa.selenium.By;\r\nimport org.openqa.selenium.WebDriver;\r\nimport org.openqa.selenium.WebElement;\r\nimport org.openqa.selenium.chrome.ChromeDriver;\r\n\r\npublic class TestSelenium {\r\n\r\n    private WebDriver webDriver;//классовое поле\r\n    //константа для адреса сайта\r\n    private static final String AUTOMAT_PRACT_URL = \"https://www.championat.com//\";\r\n\r\n    //Локатор для клика или поиска\r\n    private static final String FOOTBAL_BUTTON_LOC = \"//div[1]/div/nav/ul/li[1]/a\";\r\n\r\n    //Локатор для проверки, точно ли мы на той странице\r\n    private static final String FOOTBAL_PAGE_SELECTOR = \"body > div.page > div.breadcrumbs.js-breadcrumbs > h1\";\r\n    @BeforeEach\r\n    public void setUp(){\r\n        //предусловие\r\n        //указываем путь до вебдрайвера\r\n        System.setProperty(\"wedriver.chrome.driver\", \"src/test/resources/chromedriver.exe\");\r\n        webDriver = new ChromeDriver();// создаем обьект что бы можно было юзать\r\n        webDriver.get(AUTOMAT_PRACT_URL);//гет запрос по url\r\n    }\r\n\r\n    @Test\r\n    public void testSelenium(){\r\n        //Создаю вебэлемент на основе драйвера,\r\n        // провожу поиск по xPath и сохранение элемента в webElement\r\n        WebElement webElement = webDriver.findElement(By.xpath(FOOTBAL_BUTTON_LOC));\r\n        webElement.click(); //Кликаем на него\r\n\r\n\r\n         //еще один веб элемент для поиска по css селектора\r\n        WebElement titlePage = webDriver.findElement(By.cssSelector(FOOTBAL_PAGE_SELECTOR));\r\n        //получаем текст который ищем\r\n        String titleText = titlePage.getText();\r\n        //Проверяем, что titleText содержит в себе текст нужный\r\n        Assertions.assertTrue(titleText.contains(\"ФУТБОЛ РОССИИ И МИРА\"));\r\n        //можно перевести в нижний регистр\r\n        //Assertions.assertTrue(titleText.toLowerCase().contains(\"Футбол Росии и Мира\"));\r\n        }\r\n\r\n    @AfterEach\r\n    public void tearDown(){\r\n        //постусловие\r\n        //webDriver.close(); //Закрывает вкладку, и остается в диспетчере\r\n        webDriver.quit(); //Выходит из браузера и убивает себя как процесс\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/test/java/TestSelenium/TestSelenium.java b/src/test/java/TestSelenium/TestSelenium.java
+--- a/src/test/java/TestSelenium/TestSelenium.java	
++++ b/src/test/java/TestSelenium/TestSelenium.java	
+@@ -37,8 +37,6 @@
+         // провожу поиск по xPath и сохранение элемента в webElement
+         WebElement webElement = webDriver.findElement(By.xpath(FOOTBAL_BUTTON_LOC));
+         webElement.click(); //Кликаем на него
+-
+-
+          //еще один веб элемент для поиска по css селектора
+         WebElement titlePage = webDriver.findElement(By.cssSelector(FOOTBAL_PAGE_SELECTOR));
+         //получаем текст который ищем

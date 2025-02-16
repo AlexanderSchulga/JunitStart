@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Desc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Desc.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java" afterDir="false" />
+    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="4 файл End">
+      <changelist_data name="Alexander" email="famakiller3@gmail.com" date="1739696501000" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -310,6 +308,7 @@
     <MESSAGE value="4 файл 1-14-00&#10;Найти другой сайт, днс банит" />
     <MESSAGE value="4 файл 1-20-10&#10;Кликает на чемпе на футбол" />
     <MESSAGE value="4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница" />
+    <MESSAGE value="4 файл End" />
+    <option name="LAST_COMMIT_MESSAGE" value="4 файл End" />
   </component>
 </project>

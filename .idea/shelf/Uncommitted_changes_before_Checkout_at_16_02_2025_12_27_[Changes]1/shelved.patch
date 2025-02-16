@@ -1,0 +1,333 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"00a0935d-39bc-450d-99b0-e65e0fa425d0\" name=\"Changes\" comment=\"4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/Desc.txt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/Desc.txt\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"SeleniumChromdriver\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2rtrXfJR0F5essWVd7cRVZZ4LDT\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;G:/Новая папка/JunitStart/src/test/resources&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"G:\\Новая папка\\JunitStart\\src\\test\\resources\" />\r\n      <recent name=\"G:\\Новая папка\\JunitStart\\src\\test\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"G:\\Новая папка\\JunitStart\\src\\test\\resource\" />\r\n      <recent name=\"G:\\Новая папка\\JunitStart\\src\\test\" />\r\n    </key>\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"tests\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.TestSelenium.testSelenium\">\r\n    <configuration name=\"TestNumberGreaterThat.testPenWriteGetColorFoo\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"JunitStart\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"tests.parametrize.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"tests.parametrize\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"tests.parametrize.TestNumberGreaterThat\" />\r\n      <option name=\"METHOD_NAME\" value=\"testPenWriteGetColorFoo(int,int,java.lang.String)\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestPenGetColor.testPenWriteGetColorFoo\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"JunitStart\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"tests.parametrize.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"tests\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"tests.TestPenGetColor\" />\r\n      <option name=\"METHOD_NAME\" value=\"testPenWriteGetColorFoo(java.lang.String,int)\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestPenGetColor.testPenWriteGetColorRedColor\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"JunitStart\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"tests.parametrize.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"tests\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"tests.TestPenGetColor\" />\r\n      <option name=\"METHOD_NAME\" value=\"testPenWriteGetColorRedColor(java.lang.String)\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestPenWrite.testPenWriteWordNegative\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"JunitStart\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"tests.parametrize.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"tests\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"tests.TestPenWrite\" />\r\n      <option name=\"METHOD_NAME\" value=\"testPenWriteWordNegative\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestSelenium\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"JunitStart\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"TestSelenium.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"TestSelenium\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"TestSelenium.TestSelenium\" />\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TestSelenium.testSelenium\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"JunitStart\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"TestSelenium.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"TestSelenium\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"TestSelenium.TestSelenium\" />\r\n      <option name=\"METHOD_NAME\" value=\"testSelenium\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.TestSelenium.testSelenium\" />\r\n        <item itemvalue=\"JUnit.TestSelenium\" />\r\n        <item itemvalue=\"JUnit.TestNumberGreaterThat.testPenWriteGetColorFoo\" />\r\n        <item itemvalue=\"JUnit.TestPenWrite.testPenWriteWordNegative\" />\r\n        <item itemvalue=\"JUnit.TestPenGetColor.testPenWriteGetColorFoo\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"00a0935d-39bc-450d-99b0-e65e0fa425d0\" name=\"Changes\" comment=\"\" />\r\n      <created>1737389254552</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1737389254552</updated>\r\n      <workItem from=\"1737389256301\" duration=\"1469000\" />\r\n      <workItem from=\"1737475071286\" duration=\"61000\" />\r\n      <workItem from=\"1737561481650\" duration=\"5133000\" />\r\n      <workItem from=\"1737645605864\" duration=\"70000\" />\r\n      <workItem from=\"1737804834545\" duration=\"387000\" />\r\n      <workItem from=\"1737805613036\" duration=\"975000\" />\r\n      <workItem from=\"1738167460619\" duration=\"2619000\" />\r\n      <workItem from=\"1738259281795\" duration=\"314000\" />\r\n      <workItem from=\"1738596435130\" duration=\"10199000\" />\r\n      <workItem from=\"1738683042527\" duration=\"4295000\" />\r\n      <workItem from=\"1738770147583\" duration=\"4424000\" />\r\n      <workItem from=\"1739012274658\" duration=\"2304000\" />\r\n      <workItem from=\"1739291143285\" duration=\"4113000\" />\r\n      <workItem from=\"1739377670319\" duration=\"3792000\" />\r\n      <workItem from=\"1739461186154\" duration=\"2202000\" />\r\n      <workItem from=\"1739695627781\" duration=\"723000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Начало работы&#10;с Junit &#10;3 файл 34-29\">\r\n      <created>1737389571666</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737389571666</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Pom&#10;3 файл 41-11\">\r\n      <created>1737390659841</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737390659841</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Тест ручки junitom&#10;3 файл 56-31\">\r\n      <created>1737567357500</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737567357500</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Тест ручки junitom&#10;3 файл 01-01-32&#10;Сделать похожий тест, попрактиковаться для освоения\">\r\n      <created>1737806302958</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1737806302958</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Junit&#10;3 файл все&#10;Параметризация, &#10;Exception,&#10;покрытие метода параметрами,&#10;сравнения equals&#10;Дополнил Desc.txt\">\r\n      <created>1738685750251</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1738685750251</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"4 файл 24-27&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима\">\r\n      <created>1738687891902</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1738687891902</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"4 файл 49-30&#10;селекторы&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима\">\r\n      <created>1738774838313</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1738774838313</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"4 файл 1-09-54&#10;chromedriver скачал\">\r\n      <created>1739014558297</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1739014558297</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"4 файл 1-14-00&#10;Найти другой сайт, днс банит\">\r\n      <created>1739295983043</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1739295983043</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"4 файл 1-20-10&#10;Кликает на чемпе на футбол\">\r\n      <created>1739381473020</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1739381473020</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница\">\r\n      <created>1739463669212</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1739463669212</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"12\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"Selector\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Начало работы&#10;с Junit &#10;3 файл 34-29\" />\r\n    <MESSAGE value=\"Pom&#10;3 файл 41-11\" />\r\n    <MESSAGE value=\"Тест ручки junitom&#10;3 файл 56-31\" />\r\n    <MESSAGE value=\"Тест ручки junitom&#10;3 файл 01-01-32&#10;Сделать похожий тест, попрактиковаться для освоения\" />\r\n    <MESSAGE value=\"Junit&#10;3 файл все&#10;Параметризация, &#10;Exception,&#10;покрытие метода параметрами,&#10;сравнения equals&#10;Дополнил Desc.txt\" />\r\n    <MESSAGE value=\"4 файл 24-27&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима\" />\r\n    <MESSAGE value=\"4 файл 49-30&#10;селекторы&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима\" />\r\n    <MESSAGE value=\"4 файл 1-09-54&#10;chromedriver скачал\" />\r\n    <MESSAGE value=\"4 файл 1-14-00&#10;Найти другой сайт, днс банит\" />\r\n    <MESSAGE value=\"4 файл 1-20-10&#10;Кликает на чемпе на футбол\" />\r\n    <MESSAGE value=\"4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,172 +1,21 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="AutoImportSettings">
+-    <option name="autoReloadType" value="SELECTIVE" />
+-  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/Desc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Desc.txt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java" afterDir="false" />
+-    </list>
++    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Class" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_BRANCH_BY_REPOSITORY">
+-      <map>
+-        <entry key="$PROJECT_DIR$" value="SeleniumChromdriver" />
+-      </map>
+-    </option>
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="MarkdownSettingsMigration">
+-    <option name="stateVersion" value="1" />
+   </component>
+   <component name="ProjectId" id="2rtrXfJR0F5essWVd7cRVZZ4LDT" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;G:/Новая папка/JunitStart/src/test/resources&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "WebServerToolWindowFactoryState": "false"
+   }
+-}</component>
+-  <component name="RecentsManager">
+-    <key name="CopyFile.RECENT_KEYS">
+-      <recent name="G:\Новая папка\JunitStart\src\test\resources" />
+-      <recent name="G:\Новая папка\JunitStart\src\test" />
+-    </key>
+-    <key name="MoveFile.RECENT_KEYS">
+-      <recent name="G:\Новая папка\JunitStart\src\test\resource" />
+-      <recent name="G:\Новая папка\JunitStart\src\test" />
+-    </key>
+-    <key name="CopyClassDialog.RECENTS_KEY">
+-      <recent name="tests" />
+-    </key>
+-  </component>
+-  <component name="RunManager" selected="JUnit.TestSelenium.testSelenium">
+-    <configuration name="TestNumberGreaterThat.testPenWriteGetColorFoo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="JunitStart" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="tests.parametrize.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="tests.parametrize" />
+-      <option name="MAIN_CLASS_NAME" value="tests.parametrize.TestNumberGreaterThat" />
+-      <option name="METHOD_NAME" value="testPenWriteGetColorFoo(int,int,java.lang.String)" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="TestPenGetColor.testPenWriteGetColorFoo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="JunitStart" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="tests.parametrize.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="tests" />
+-      <option name="MAIN_CLASS_NAME" value="tests.TestPenGetColor" />
+-      <option name="METHOD_NAME" value="testPenWriteGetColorFoo(java.lang.String,int)" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="TestPenGetColor.testPenWriteGetColorRedColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="JunitStart" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="tests.parametrize.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="tests" />
+-      <option name="MAIN_CLASS_NAME" value="tests.TestPenGetColor" />
+-      <option name="METHOD_NAME" value="testPenWriteGetColorRedColor(java.lang.String)" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="TestPenWrite.testPenWriteWordNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="JunitStart" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="tests.parametrize.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="tests" />
+-      <option name="MAIN_CLASS_NAME" value="tests.TestPenWrite" />
+-      <option name="METHOD_NAME" value="testPenWriteWordNegative" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="TestSelenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="JunitStart" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="TestSelenium.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="TestSelenium" />
+-      <option name="MAIN_CLASS_NAME" value="TestSelenium.TestSelenium" />
+-      <option name="TEST_OBJECT" value="class" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="TestSelenium.testSelenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+-      <module name="JunitStart" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="TestSelenium.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <option name="PACKAGE_NAME" value="TestSelenium" />
+-      <option name="MAIN_CLASS_NAME" value="TestSelenium.TestSelenium" />
+-      <option name="METHOD_NAME" value="testSelenium" />
+-      <option name="TEST_OBJECT" value="method" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <recent_temporary>
+-      <list>
+-        <item itemvalue="JUnit.TestSelenium.testSelenium" />
+-        <item itemvalue="JUnit.TestSelenium" />
+-        <item itemvalue="JUnit.TestNumberGreaterThat.testPenWriteGetColorFoo" />
+-        <item itemvalue="JUnit.TestPenWrite.testPenWriteWordNegative" />
+-        <item itemvalue="JUnit.TestPenGetColor.testPenWriteGetColorFoo" />
+-      </list>
+-    </recent_temporary>
+-  </component>
++}]]></component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -175,141 +24,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1737389254552</updated>
+-      <workItem from="1737389256301" duration="1469000" />
+-      <workItem from="1737475071286" duration="61000" />
+-      <workItem from="1737561481650" duration="5133000" />
+-      <workItem from="1737645605864" duration="70000" />
+-      <workItem from="1737804834545" duration="387000" />
+-      <workItem from="1737805613036" duration="975000" />
+-      <workItem from="1738167460619" duration="2619000" />
+-      <workItem from="1738259281795" duration="314000" />
+-      <workItem from="1738596435130" duration="10199000" />
+-      <workItem from="1738683042527" duration="4295000" />
+-      <workItem from="1738770147583" duration="4424000" />
+-      <workItem from="1739012274658" duration="2304000" />
+-      <workItem from="1739291143285" duration="4113000" />
+-      <workItem from="1739377670319" duration="3792000" />
+-      <workItem from="1739461186154" duration="2202000" />
+-      <workItem from="1739695627781" duration="723000" />
+     </task>
+-    <task id="LOCAL-00001" summary="Начало работы&#10;с Junit &#10;3 файл 34-29">
+-      <created>1737389571666</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1737389571666</updated>
+-    </task>
+-    <task id="LOCAL-00002" summary="Pom&#10;3 файл 41-11">
+-      <created>1737390659841</created>
+-      <option name="number" value="00002" />
+-      <option name="presentableId" value="LOCAL-00002" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1737390659841</updated>
+-    </task>
+-    <task id="LOCAL-00003" summary="Тест ручки junitom&#10;3 файл 56-31">
+-      <created>1737567357500</created>
+-      <option name="number" value="00003" />
+-      <option name="presentableId" value="LOCAL-00003" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1737567357500</updated>
+-    </task>
+-    <task id="LOCAL-00004" summary="Тест ручки junitom&#10;3 файл 01-01-32&#10;Сделать похожий тест, попрактиковаться для освоения">
+-      <created>1737806302958</created>
+-      <option name="number" value="00004" />
+-      <option name="presentableId" value="LOCAL-00004" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1737806302958</updated>
+-    </task>
+-    <task id="LOCAL-00005" summary="Junit&#10;3 файл все&#10;Параметризация, &#10;Exception,&#10;покрытие метода параметрами,&#10;сравнения equals&#10;Дополнил Desc.txt">
+-      <created>1738685750251</created>
+-      <option name="number" value="00005" />
+-      <option name="presentableId" value="LOCAL-00005" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1738685750251</updated>
+-    </task>
+-    <task id="LOCAL-00006" summary="4 файл 24-27&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима">
+-      <created>1738687891902</created>
+-      <option name="number" value="00006" />
+-      <option name="presentableId" value="LOCAL-00006" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1738687891902</updated>
+-    </task>
+-    <task id="LOCAL-00007" summary="4 файл 49-30&#10;селекторы&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима">
+-      <created>1738774838313</created>
+-      <option name="number" value="00007" />
+-      <option name="presentableId" value="LOCAL-00007" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1738774838313</updated>
+-    </task>
+-    <task id="LOCAL-00008" summary="4 файл 1-09-54&#10;chromedriver скачал">
+-      <created>1739014558297</created>
+-      <option name="number" value="00008" />
+-      <option name="presentableId" value="LOCAL-00008" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1739014558297</updated>
+-    </task>
+-    <task id="LOCAL-00009" summary="4 файл 1-14-00&#10;Найти другой сайт, днс банит">
+-      <created>1739295983043</created>
+-      <option name="number" value="00009" />
+-      <option name="presentableId" value="LOCAL-00009" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1739295983043</updated>
+-    </task>
+-    <task id="LOCAL-00010" summary="4 файл 1-20-10&#10;Кликает на чемпе на футбол">
+-      <created>1739381473020</created>
+-      <option name="number" value="00010" />
+-      <option name="presentableId" value="LOCAL-00010" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1739381473020</updated>
+-    </task>
+-    <task id="LOCAL-00011" summary="4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница">
+-      <created>1739463669212</created>
+-      <option name="number" value="00011" />
+-      <option name="presentableId" value="LOCAL-00011" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1739463669212</updated>
+-    </task>
+-    <option name="localTasksCounter" value="12" />
+     <servers />
+   </component>
+-  <component name="TypeScriptGeneratedFilesManager">
+-    <option name="version" value="3" />
+-  </component>
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State>
+-              <option name="FILTERS">
+-                <map>
+-                  <entry key="branch">
+-                    <value>
+-                      <list>
+-                        <option value="Selector" />
+-                      </list>
+-                    </value>
+-                  </entry>
+-                </map>
+-              </option>
+-            </State>
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-  </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="Начало работы&#10;с Junit &#10;3 файл 34-29" />
+-    <MESSAGE value="Pom&#10;3 файл 41-11" />
+-    <MESSAGE value="Тест ручки junitom&#10;3 файл 56-31" />
+-    <MESSAGE value="Тест ручки junitom&#10;3 файл 01-01-32&#10;Сделать похожий тест, попрактиковаться для освоения" />
+-    <MESSAGE value="Junit&#10;3 файл все&#10;Параметризация, &#10;Exception,&#10;покрытие метода параметрами,&#10;сравнения equals&#10;Дополнил Desc.txt" />
+-    <MESSAGE value="4 файл 24-27&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима" />
+-    <MESSAGE value="4 файл 49-30&#10;селекторы&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима" />
+-    <MESSAGE value="4 файл 1-09-54&#10;chromedriver скачал" />
+-    <MESSAGE value="4 файл 1-14-00&#10;Найти другой сайт, днс банит" />
+-    <MESSAGE value="4 файл 1-20-10&#10;Кликает на чемпе на футбол" />
+-    <MESSAGE value="4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница" />
+-    <option name="LAST_COMMIT_MESSAGE" value="4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница" />
+-  </component>
+ </project>
+\ No newline at end of file

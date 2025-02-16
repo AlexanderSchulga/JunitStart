@@ -1,0 +1,528 @@
+Index: src/test/Desc.txt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>Если хотим сделать мерж из веток в более высого ранга ветку, может быть конфлик. Тогда идея предоставит\r\nвыбор нам. Там мы можем либо то, либо то или все вместе.\r\n\r\n---------------------\r\nВернуться на прежнюю версию кода  вветке, можно\r\nвнизу надпись Git, откроются ветки. Правой кнопко меню, выбираем revert Comit\r\nУ каждого комита свой номер\r\n\r\nВ файле Readme иногда пишут как работать с той или иной библиотекой и тд\r\ngitignore - то что нужно игнорировать при работе с гитом на яве\r\n\r\nЧто бы вернуть вкладку коммит в sidebar- settings - version control -\r\n- commit - use not modal comit interface\r\n\r\n---------------------------\r\npull request v git hub это запрос на слияние с веткой запушиной\r\n\r\n------------------------\r\n\r\ncheripic --  комит с комитом\r\n\r\n-----------------------------\r\n\r\nВетка 1\r\n\r\nВозвратился с папкой идеа с гитигнором через\r\nGit- chekcout revision в меню правой кнопкой на бренч\r\n\r\nПерегрузка методов-----\r\nразные параметры и их количество\r\nА так же тип параметров\r\n\r\n---------------------------\r\npsvm ----создание метода мейн\r\n\r\n\r\n--------------------------\r\nProtected ---- как и private, только имеют доступы наследники\r\n-------------------------------\r\nС помощью рефлексии можно обращаться к приватным полям методов\r\n\r\n------------------------------\r\nКлассы называются именем Существительным\r\nМетоды глаголами\r\n---------------------------\r\nАбстрактные классы и интерфейсы немного похожи,\r\nно все же разные\r\nИнтерфейсы - это шаблон как будет выглядеть реализация\r\nНаследование только от одного, а имплементировать много можно\r\nИз интерфейсов можно получить множественное наследование\r\nчерез default - но это частный случай\r\n\r\n------------------------------------\r\nНапрямую с Json не работаю для чтения и записи\r\nиспользую гесоны и тд...\r\n\r\njunit --- тестовый runer, то что запускает тесты\r\n\r\nmaven---сборщик проектов, кода
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/Desc.txt b/src/test/Desc.txt
+--- a/src/test/Desc.txt	(revision badbe960fd06940eae0751baf108b6d3894cccbd)
++++ b/src/test/Desc.txt	(date 1739697899410)
+@@ -1,3 +1,5 @@
++CTRL ALT O
++
+ Если хотим сделать мерж из веток в более высого ранга ветку, может быть конфлик. Тогда идея предоставит
+ выбор нам. Там мы можем либо то, либо то или все вместе.
+ 
+@@ -56,4 +58,120 @@
+ 
+ junit --- тестовый runer, то что запускает тесты
+ 
+-maven---сборщик проектов, кода
+\ No newline at end of file
++maven---сборщик проектов, кода.
++Базовый архетип--порядок папок, файлов, создание-
++файлов по умолчанию--папка тест, Main и т.д.
++Справа в мавен-папка Lifecycle---
++жизненые циклы, что можно сделать
++
++Gradle --- в супепупер проектах и чаще в андройд
++разаботке
++
++Unit тесты обычно пишут разработчики для себя
++
++Pom----файл конфигурации---версии джавы,
++зависимосте, плагинов, сам зависимости и т.д.
++
++Только именно для тестов, создавать папку в -
++-------test-java-tests
++
++В класах, методах указывать слово тест в начале,
++для фреймворков
++
++  Через нижнее подчеркивание в методах тестирования можно
++название писать, такие стандарты называются
++конвеншен.
++Но можно и просто без.
++
++Если в зависимости Pom-e в junit указано в scope Тест--
++то junit будет работать только для папки Тест, если убрать
++scope, то можно для туда и туда, другой скоп можно сделать
++только для мейна
++-----------------------------------------
++Что бы методот был тестовым и появился Run, нужно над ним аннотацию Тест
++----------------------------------------------
++Для подключения к базе там или еще что то,
++что нужно для каждого метода--
++в классе в начале прописываем анотацию @Before и метод setUp
++в конце @After и метод tearDown ---отключить
++Лучше выносить в отдельный класс и наследовать
++PS названия можно поменять----------------------
++@BeforeEach и @AfterEach в юните 5
++--------------------------------------------------------
++Всегда должен быть базовый пустой конструктор,
++если добавляю непустой, что бы вызывать класс с дефолтными
++переменными класса.
++_____________________________________________________-
++Alt+enter-----появляется список откуда импортировать
++при наведении на красный класс, метод и тд.
++---------------------------------------------------
++        <dependency>
++            <groupId>org.junit.jupiter</groupId>
++            <artifactId>junit-jupiter-params</artifactId>
++            <version>5.11.4</version>
++            <scope>test</scope>
++        </dependency>
++Параметризация, начинается с junit 5, она для того
++что бы кучу методов не писать со схожими данными,
++например разный цвет и т.д.
++ @ParameterizedTest
++ @ValueSource(strings = {"Red", "blue", "Yellow"})------------
++ @ArgumentsSource----для параметризирования нескольких типов или параметров
++ при этом не забываем создать класс где, implements ArgumentsProvider и
++     @Override
++     public Stream<? extends Arguments> provideArguments(ExtensionContext context) throws Exception {
++         return Stream.of(
++                 Arguments.of("Red", 14),
++                 Arguments.of("blue", 140),
++                 Arguments.of("Red", 100),
++                 Arguments.of("Yellow", 1055),
++                 Arguments.of("blue", 1054)
++
++ Тест и его параметризацию нужно в отдельный пакет(папку)
++--------------------------------------------------
++Selenium - средство для автоматизации тестирования сайтов
++для web ui тестирования
++На его движке драйвера, строится связь кода и браузера
++
++Selenium IDE плохо масштабируется и его тяжело поддерживать
++Он записывает действия, при смене действий, смене коор-динат
++ и тд. приходится переза-писывать все сначала
++ -------------------------
++Selenium Webdriver тоже самое, но пишем сами, можем изменять и т.д.
++Webdriver предоставляет общий интерфейс Selenium-а
++
++Поиск xpath и css селекторов в браузере в devtools----
++ctrl+f как обычно.
++У Selenium есть базовый свой набор селекторов
++пример:
++static class
++By.ByClassName
++static class
++By.ByCssSelector
++static class
++By.ByXPath
++static class
++By.ByName и т.д.........
++
++Есть в интете синтаксисы написания локаторов
++Поиск по xpath начинается с /
++/Один слешь--на один элемент в глубь, -абсолют
++//Два слеша, на n элементов в глубь  --относит
++
++Если одинаковых тегов много, то нужно конкретезировать
++атрибутами:
++//Button[@name="submit_search" and @type="submit"]
++Можно один или несколько атрибутов.
++
++Дальше относительно найденного можно еще:
++//Button[@name="submit_search"]//a[@text()=...имя ссылки]
++text тут не атрибут, а функция xpath-а.
++
++CSS локатор:(пробелы указывают, что ищем относительно текущего
++//div#block_top_menu a[title="....."]
++
++Оси xPath ---
++//div[@id="cart"]/following-sibling::div[....]
++один из
++following-sibling---что бы не в глубь,
++а потому же уровню
+Index: src/test/java/TestSelenium/TestSelenium.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/TestSelenium/TestSelenium.java b/src/test/java/TestSelenium/TestSelenium.java
+new file mode 100644
+--- /dev/null	(date 1739697893143)
++++ b/src/test/java/TestSelenium/TestSelenium.java	(date 1739697893143)
+@@ -0,0 +1,56 @@
++package TestSelenium;
++
++//класс запускающий браузер
++
++import org.junit.jupiter.api.AfterEach;
++import org.junit.jupiter.api.Assertions;
++import org.junit.jupiter.api.BeforeEach;
++import org.junit.jupiter.api.Test;
++import org.openqa.selenium.By;
++import org.openqa.selenium.WebDriver;
++import org.openqa.selenium.WebElement;
++import org.openqa.selenium.chrome.ChromeDriver;
++
++public class TestSelenium {
++
++    private WebDriver webDriver;//классовое поле
++    //константа для адреса сайта
++    private static final String AUTOMAT_PRACT_URL = "https://www.championat.com//";
++
++    //Локатор для клика или поиска
++    private static final String FOOTBAL_BUTTON_LOC = "//div[1]/div/nav/ul/li[1]/a";
++
++    //Локатор для проверки, точно ли мы на той странице
++    private static final String FOOTBAL_PAGE_SELECTOR = "body > div.page > div.breadcrumbs.js-breadcrumbs > h1";
++    @BeforeEach
++    public void setUp(){
++        //предусловие
++        //указываем путь до вебдрайвера
++        System.setProperty("wedriver.chrome.driver", "src/test/resources/chromedriver.exe");
++        webDriver = new ChromeDriver();// создаем обьект что бы можно было юзать
++        webDriver.get(AUTOMAT_PRACT_URL);//гет запрос по url
++    }
++
++    @Test
++    public void testSelenium(){
++        //Создаю вебэлемент на основе драйвера,
++        // провожу поиск по xPath и сохранение элемента в webElement
++        WebElement webElement = webDriver.findElement(By.xpath(FOOTBAL_BUTTON_LOC));
++        webElement.click(); //Кликаем на него
++         //еще один веб элемент для поиска по css селектора
++        WebElement titlePage = webDriver.findElement(By.cssSelector(FOOTBAL_PAGE_SELECTOR));
++        //получаем текст который ищем
++        String titleText = titlePage.getText();
++        //Проверяем, что titleText содержит в себе текст нужный
++        Assertions.assertTrue(titleText.contains("ФУТБОЛ РОССИИ И МИРА"));
++        //можно перевести в нижний регистр
++        //Assertions.assertTrue(titleText.toLowerCase().contains("Футбол Росии и Мира"));
++        }
++
++    @AfterEach
++    public void tearDown(){
++        //постусловие
++        //webDriver.close(); //Закрывает вкладку, и остается в диспетчере
++        webDriver.quit(); //Выходит из браузера и убивает себя как процесс
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"00a0935d-39bc-450d-99b0-e65e0fa425d0\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2rtrXfJR0F5essWVd7cRVZZ4LDT\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"00a0935d-39bc-450d-99b0-e65e0fa425d0\" name=\"Changes\" comment=\"\" />\r\n      <created>1737389254552</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1737389254552</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision badbe960fd06940eae0751baf108b6d3894cccbd)
++++ b/.idea/workspace.xml	(date 1739697866972)
+@@ -1,21 +1,171 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="" />
++    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="4 файл 1-20-10&#10;Кликает на чемпе на футбол">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="chromdrive" />
++      </map>
++    </option>
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
+   <component name="ProjectId" id="2rtrXfJR0F5essWVd7cRVZZ4LDT" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "WebServerToolWindowFactoryState": "false"
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;last_opened_file_path&quot;: &quot;G:/Новая папка/JunitStart/src/test/resources&quot;
+   }
+-}]]></component>
++}</component>
++  <component name="RecentsManager">
++    <key name="CopyFile.RECENT_KEYS">
++      <recent name="G:\Новая папка\JunitStart\src\test\resources" />
++      <recent name="G:\Новая папка\JunitStart\src\test" />
++    </key>
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="G:\Новая папка\JunitStart\src\test\resource" />
++      <recent name="G:\Новая папка\JunitStart\src\test" />
++    </key>
++    <key name="CopyClassDialog.RECENTS_KEY">
++      <recent name="tests" />
++    </key>
++  </component>
++  <component name="RunManager" selected="JUnit.TestSelenium.testSelenium">
++    <configuration name="TestNumberGreaterThat.testPenWriteGetColorFoo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="JunitStart" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="tests.parametrize.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="tests.parametrize" />
++      <option name="MAIN_CLASS_NAME" value="tests.parametrize.TestNumberGreaterThat" />
++      <option name="METHOD_NAME" value="testPenWriteGetColorFoo(int,int,java.lang.String)" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="TestPenGetColor.testPenWriteGetColorFoo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="JunitStart" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="tests.parametrize.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="tests" />
++      <option name="MAIN_CLASS_NAME" value="tests.TestPenGetColor" />
++      <option name="METHOD_NAME" value="testPenWriteGetColorFoo(java.lang.String,int)" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="TestPenGetColor.testPenWriteGetColorRedColor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="JunitStart" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="tests.parametrize.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="tests" />
++      <option name="MAIN_CLASS_NAME" value="tests.TestPenGetColor" />
++      <option name="METHOD_NAME" value="testPenWriteGetColorRedColor(java.lang.String)" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="TestPenWrite.testPenWriteWordNegative" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="JunitStart" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="tests.parametrize.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="tests" />
++      <option name="MAIN_CLASS_NAME" value="tests.TestPenWrite" />
++      <option name="METHOD_NAME" value="testPenWriteWordNegative" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="TestSelenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="JunitStart" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="TestSelenium.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="TestSelenium" />
++      <option name="MAIN_CLASS_NAME" value="TestSelenium.TestSelenium" />
++      <option name="TEST_OBJECT" value="class" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="TestSelenium.testSelenium" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="JunitStart" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="TestSelenium.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="TestSelenium" />
++      <option name="MAIN_CLASS_NAME" value="TestSelenium.TestSelenium" />
++      <option name="METHOD_NAME" value="testSelenium" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="JUnit.TestSelenium.testSelenium" />
++        <item itemvalue="JUnit.TestSelenium" />
++        <item itemvalue="JUnit.TestNumberGreaterThat.testPenWriteGetColorFoo" />
++        <item itemvalue="JUnit.TestPenWrite.testPenWriteWordNegative" />
++        <item itemvalue="JUnit.TestPenGetColor.testPenWriteGetColorFoo" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -24,7 +174,132 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1737389254552</updated>
++      <workItem from="1737389256301" duration="1469000" />
++      <workItem from="1737475071286" duration="61000" />
++      <workItem from="1737561481650" duration="5133000" />
++      <workItem from="1737645605864" duration="70000" />
++      <workItem from="1737804834545" duration="387000" />
++      <workItem from="1737805613036" duration="975000" />
++      <workItem from="1738167460619" duration="2619000" />
++      <workItem from="1738259281795" duration="314000" />
++      <workItem from="1738596435130" duration="10199000" />
++      <workItem from="1738683042527" duration="4295000" />
++      <workItem from="1738770147583" duration="4424000" />
++      <workItem from="1739012274658" duration="2304000" />
++      <workItem from="1739291143285" duration="4113000" />
++      <workItem from="1739377670319" duration="3792000" />
++      <workItem from="1739461186154" duration="2051000" />
++    </task>
++    <task id="LOCAL-00001" summary="Начало работы&#10;с Junit &#10;3 файл 34-29">
++      <created>1737389571666</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1737389571666</updated>
++    </task>
++    <task id="LOCAL-00002" summary="Pom&#10;3 файл 41-11">
++      <created>1737390659841</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1737390659841</updated>
++    </task>
++    <task id="LOCAL-00003" summary="Тест ручки junitom&#10;3 файл 56-31">
++      <created>1737567357500</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1737567357500</updated>
++    </task>
++    <task id="LOCAL-00004" summary="Тест ручки junitom&#10;3 файл 01-01-32&#10;Сделать похожий тест, попрактиковаться для освоения">
++      <created>1737806302958</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1737806302958</updated>
++    </task>
++    <task id="LOCAL-00005" summary="Junit&#10;3 файл все&#10;Параметризация, &#10;Exception,&#10;покрытие метода параметрами,&#10;сравнения equals&#10;Дополнил Desc.txt">
++      <created>1738685750251</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1738685750251</updated>
++    </task>
++    <task id="LOCAL-00006" summary="4 файл 24-27&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима">
++      <created>1738687891902</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1738687891902</updated>
++    </task>
++    <task id="LOCAL-00007" summary="4 файл 49-30&#10;селекторы&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима">
++      <created>1738774838313</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1738774838313</updated>
++    </task>
++    <task id="LOCAL-00008" summary="4 файл 1-09-54&#10;chromedriver скачал">
++      <created>1739014558297</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1739014558297</updated>
++    </task>
++    <task id="LOCAL-00009" summary="4 файл 1-14-00&#10;Найти другой сайт, днс банит">
++      <created>1739295983043</created>
++      <option name="number" value="00009" />
++      <option name="presentableId" value="LOCAL-00009" />
++      <option name="project" value="LOCAL" />
++      <updated>1739295983043</updated>
+     </task>
++    <task id="LOCAL-00010" summary="4 файл 1-20-10&#10;Кликает на чемпе на футбол">
++      <created>1739381473020</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1739381473020</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="Selector" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Начало работы&#10;с Junit &#10;3 файл 34-29" />
++    <MESSAGE value="Pom&#10;3 файл 41-11" />
++    <MESSAGE value="Тест ручки junitom&#10;3 файл 56-31" />
++    <MESSAGE value="Тест ручки junitom&#10;3 файл 01-01-32&#10;Сделать похожий тест, попрактиковаться для освоения" />
++    <MESSAGE value="Junit&#10;3 файл все&#10;Параметризация, &#10;Exception,&#10;покрытие метода параметрами,&#10;сравнения equals&#10;Дополнил Desc.txt" />
++    <MESSAGE value="4 файл 24-27&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима" />
++    <MESSAGE value="4 файл 49-30&#10;селекторы&#10;Найти похожий сайт&#10;как у него для теста&#10; и дальше делать на нем,&#10; даже без стима" />
++    <MESSAGE value="4 файл 1-09-54&#10;chromedriver скачал" />
++    <MESSAGE value="4 файл 1-14-00&#10;Найти другой сайт, днс банит" />
++    <MESSAGE value="4 файл 1-20-10&#10;Кликает на чемпе на футбол" />
++    <option name="LAST_COMMIT_MESSAGE" value="4 файл 1-20-10&#10;Кликает на чемпе на футбол" />
++  </component>
+ </project>
+\ No newline at end of file
