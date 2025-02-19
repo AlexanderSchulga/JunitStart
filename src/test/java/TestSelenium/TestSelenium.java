@@ -3,16 +3,16 @@ package TestSelenium;
 //класс запускающий браузер
 
 import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 public class TestSelenium {
 
@@ -31,7 +31,25 @@ public class TestSelenium {
         //предусловие
         //указываем путь до вебдрайвера
         System.setProperty("webDriver.chrome.driver", "src/test/resources/chromedriver.exe");
-        webDriver = new ChromeDriver();// создаем обьект что бы можно было юзать
+        //webDriver = new ChromeDriver();// создаем обьект что бы можно было юзать
+
+
+   ////////     //комментим, так как переходим на explisitiWait
+  //      //Создаем настройки (DesiredCapabilities)-- pageLoadStrategy
+   //     // для драйвера, для работы с pageLoadTimeout
+   //     DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
+    //    desiredCapabilities.setCapability("pageLoadStrategy", "normal");
+    //    //Добавление desiredCapabilities в драйвер, через один из
+   //     //(ChromeDriver) конструкторов
+    //    ChromeOptions chromeOptions = new ChromeOptions();
+    //    //и сливаем chromeOptions с desiredCapabilities
+    //    chromeOptions.merge(desiredCapabilities);
+
+        //Перенесли сюда после создания chromeOptions и добавили //
+        // аргумент chromeOptions в скобки
+        //webDriver = new ChromeDriver(chromeOptions);
+        webDriver = new ChromeDriver();
+
         webDriver.get(AUTOMAT_PRACT_URL);//гет запрос по url
 
         //Плохой пример ожидания
@@ -40,8 +58,10 @@ public class TestSelenium {
         //при пейдж=0,а имплисити 100 милисек тест падает,
         //Для норм работы, перекрываем таймаут, ставя 10 сек в имплисити и
         //в таймаут переводим в секунды 5 к примеру
-        webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(5));
-        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+        //комментим, так как переходим на explisitiWait
+        //webDriver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(0));
+        webDriver.manage().timeouts().implicitlyWait(Duration.ofSeconds(0));
     }
 
     @Test

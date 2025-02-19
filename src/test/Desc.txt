@@ -206,7 +206,8 @@ pageLoadTimeout заканчивает свою работу, когад
 Банеры и т.д....Дианмические элементы
 С таким элементом его уже может не обработать страницу
 pageLoadTimeout, но может поймать implicitlyWait
-
-
-
+У pageLoadTimeout есть режим pageloadstrategy из DesiredCapabilities в котором мы
+укажем, что pageLoadTimeout -у ждать
+Минусы implicitlyWait --- долго, лучше с explisitiWait, явным ожиданием
+explisitiWait должен быть больше implicitlyWait, если их комбинировать
 

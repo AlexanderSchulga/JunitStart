@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="5 файл 11-29&#10;ожидания">
+    <list default="true" id="00a0935d-39bc-450d-99b0-e65e0fa425d0" name="Changes" comment="5 файл 27-29&#10;pageLoadTimeout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Desc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Desc.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSelenium/TestSelenium.java" afterDir="false" />
@@ -24,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="pageLoadTimeout" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -175,7 +175,8 @@
       <workItem from="1739377670319" duration="3792000" />
       <workItem from="1739461186154" duration="2202000" />
       <workItem from="1739695627781" duration="723000" />
-      <workItem from="1739895661750" duration="3898000" />
+      <workItem from="1739895661750" duration="4009000" />
+      <workItem from="1739979143000" duration="2825000" />
     </task>
     <task id="LOCAL-00001" summary="Начало работы&#10;с Junit &#10;3 файл 34-29">
       <created>1737389571666</created>
@@ -254,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1739463669212</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="5 файл 27-29&#10;pageLoadTimeout">
+      <created>1739899685085</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739899685085</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +304,7 @@
     <MESSAGE value="4 файл 1-20-10&#10;Кликает на чемпе на футбол" />
     <MESSAGE value="4 файл 1-24-54&#10;Проверка доп css селектором, нужная ли страница" />
     <MESSAGE value="4 файл End" />
-    <option name="LAST_COMMIT_MESSAGE" value="4 файл End" />
+    <MESSAGE value="5 файл 27-29&#10;pageLoadTimeout" />
+    <option name="LAST_COMMIT_MESSAGE" value="5 файл 27-29&#10;pageLoadTimeout" />
   </component>
 </project>
