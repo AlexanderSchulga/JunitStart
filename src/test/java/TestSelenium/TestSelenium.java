@@ -11,6 +11,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Sleeper;
+import org.openqa.selenium.support.ui.Wait;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
@@ -66,12 +70,19 @@ public class TestSelenium {
 
     @Test
     public void testSelenium(){
+        //Для ExplisitiWait
+        WebDriverWait wait = new WebDriverWait(webDriver, Duration.ofSeconds(5),Duration.ofMillis(500));
+        //Wait<WebDriver> wait = new WebDriverWait(webDriver, Duration.ofSeconds(5));
+
+
         //Создаю вебэлемент на основе драйвера,
         // провожу поиск по xPath и сохранение элемента в webElement
         WebElement webElement = webDriver.findElement(By.xpath(FOOTBAL_BUTTON_LOC));
         webElement.click(); //Кликаем на него
 
         WebElement webElement1 = webDriver.findElement(By.xpath(FOOTBAL_BUTTON));
+        //Для ExplisitiWait
+        wait.until(ExpectedConditions.visibilityOf(webElement1));
         webElement1.click(); //Кликаем на него
 
 

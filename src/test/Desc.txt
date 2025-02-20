@@ -211,3 +211,7 @@ pageLoadTimeout, но может поймать implicitlyWait
 Минусы implicitlyWait --- долго, лучше с explisitiWait, явным ожиданием
 explisitiWait должен быть больше implicitlyWait, если их комбинировать
 
+В таком порядке писать, что бы переменную webElement1 распознал
+        WebElement webElement1 = webDriver.findElement(By.xpath(FOOTBAL_BUTTON));
+        //Для ExplisitiWait
+        wait.until(ExpectedConditions.visibilityOf(webElement1));
